@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+}
+
+.contacts-panel {
+  display: flex;
+
+  width: 800px;
+  height: 600px;
+  margin: 5px auto;
+  padding: 2px;
+
+  border-style: solid;
+}
+
+.employee-list-panel {
+  width: 50%;
+  margin-right: 2px;
+  padding: 2px;
+  border-style: solid;
+  border-color: #ff5722;
+
+  overflow: scroll;
+}
+
+.employee-deatils-panel {
+  width: 50%;
+  padding: 2px;
+  margin-left: 2px;
+  border-style: solid;
+  border-color: #ffc107;
+}
+
+.search-bar {
+  width: calc(100% - 14px);
+  font-size: 16px;
+  height: 28px;
+  padding: 0px 5px;
+}
+
+.employee-item {
+  width: calc(100% - 16px);
+  border-style: solid;
+  border-color: #73d2ef;
+  margin: 4px 0;
+  padding: 5px;
+  height: 50px;
+}
+
+.employee-img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.employee-item div {
+  text-align: left;
+}
+
+.employee-item p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.employee-item span {
+  font-size: 14px;
+  color: #777;
+}
+
+
+.employee-detail {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.employee-detail .cell {
+  width: calc(100% - 12px);
+  padding: 0 10px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-detail .employee-detail-header {
+  height: 80px;
+  margin: 0px 0;
+  padding: 5px 5px;
+  overflow: hidden;
+}
+
+.employee-detail .employee-detail-header img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+
+.employee-detail .employee-detail-header h1 {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 20px 0 4px 0;
+  margin: 0;
+}
+
+.employee-detail .employee-detail-header p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.employee-detail .cell a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.employee-detail .cell p {
+  margin: 0;
+  padding: 0;
+}
+
+.employee-detail .cell p:last-child {
+  font-size: 14px;
+  color: #777;
+}
+
+.employee-detail .employee-detail-office-phone {
+  padding: 15px 10px;
+}
+
+.employee-detail .employee-detail-mobile-phone {
+  padding: 15px 10px;
+}
+
+.employee-detail .employee-detail-sms {
+  padding: 15px 10px;
+}
+
+.employee-detail .employee-detail-email {
+  padding: 15px 10px;
+  border-bottom: 0;
+}
